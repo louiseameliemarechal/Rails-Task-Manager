@@ -1,0 +1,47 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #fdfcfb;
+  color: #544036;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  margin: 10px;
+  color: #544036;
+}
+
+a:hover{
+  color: #6e5447;
+}
+
+ul{
+  list-style: none;
+  line-height: 2.5;
+  padding: 0px;
+  text-decoration: none;
+}
+
+#home-page-banner{
+  height: 300px;
+  background-image: url(" https://picsum.photos/id/1073/800/500");
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.button{
+  background-color: #544036;
+  color: #FDFCFB;
+  border-radius: 5px;
+}
